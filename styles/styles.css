@@ -2,7 +2,7 @@ nav a {
     background-color: rgb(16, 207, 224);
     color: white;
     padding: 10px;
-    display: block-inline;
+    display: inline-block;
 }
 main img {
     max-width: 840px;
