@@ -1,5 +1,15 @@
-main {
+nav a {
+    background-color: rgb(16, 207, 224);
+    color: white;
+    padding: 10px;
+    display: block-inline;
+}
+main img {
     max-width: 840px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 } 
 
 aside {
@@ -14,7 +24,7 @@ aside {
 }
 
 
-img {
+aside img {
     width: 200px;
     height: auto;
 }
