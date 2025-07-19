@@ -1,8 +1,19 @@
 nav a {
-    background-color: rgb(16, 207, 224);
     color: white;
     padding: 10px;
     display: inline-block;
+}
+
+nav{
+    background-color: rgb(16, 224, 16);
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(14, 14, 14);
+}
+main {
+   max-width: 500px;
 }
 main img {
     max-width: 840px;
