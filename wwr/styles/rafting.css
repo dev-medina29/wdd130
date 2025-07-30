@@ -33,14 +33,14 @@ nav,p,section,article{
 
 .socialmedia a{
     text-decoration: none;
+   
+
 }
 
 .hero {
     position:relative;
 }
-/* .hero h1,a {
-    position: absolute;
-} */
+
 
 .hero img {
     width: 100%;
@@ -77,4 +77,16 @@ nav,p,section,article{
     width: 100px;
     box-shadow: #f6f4f4 0px 0px 10px;
 }
+footer {
+    background-color: #0c9bcb;
+    color: #ffffff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
 
+header {
+    background-color: var(--accent1-color);
+    padding: 16px;
+    text-align: center;
+}
