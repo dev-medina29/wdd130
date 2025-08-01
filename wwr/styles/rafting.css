@@ -33,25 +33,19 @@ nav,p,section,article{
     margin: 16px;
 }
 
-.socialmedia a{
-    text-decoration: none;
-   
-
+.socialmedia a {
+    text-decoration: none;  
 }
 
 .hero {
     position:relative;
 }
 
-
 .hero img {
     width: 100%;
     display: block ;
     height: auto;
 }
-/* .hero a img {
-    width: 200px;
-} */
 
 .hero h1 {
     position: absolute;
