@@ -138,15 +138,12 @@ figcaption{
 
 
 footer {
-  display: flex;
+  display: grid;
   justify-content: space-between;
-  align-items: center;
   padding: 1rem;
-  width: 800px;
-  position: absolute;
-  left: 100px;
+  right: 100px;
   margin: 1rem auto 0;
-  width: 650px;
+  width: 845px;
   text-align: center;
   font-size: 1em;
   background-color: #0c9bcb;
