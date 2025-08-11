@@ -74,14 +74,6 @@ nav,p,section,article{
     box-shadow: #f6f4f4 0px 0px 10px;
 }
 
-footer {
-    background-color: #0c9bcb;
-    color: #ffffff;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
 header {
     background-color: var(--accent1-color);
     padding: 16px;
@@ -157,6 +149,8 @@ footer {
   width: 650px;
   text-align: center;
   font-size: 1em;
+  background-color: #0c9bcb;
+  color: #ffffff;
 }
 
 footer .social {
