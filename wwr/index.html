@@ -4,44 +4,98 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Medina MBEDI's personal page for WDD 130 course, it's an introduction to html and css especially in grid and flex.">
+    <meta name="description" content="Home page for Medina's Rafting Company">
     <meta name="author" content="Medina MBEDI">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Medina MBEDI | WDD 130</title>
+    <title> Home page</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head> 
 
 <body>
-    <header>
+    <header >
+        <img src="images/logo.jpg" alt="WWR Logo" width="200">
         <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting website</a>
-            <a href="https://www.linkedin.com">LinkedIn</a>
-            <a href="https://www.facebook.com/">Facebook</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>  
+		    </ul>
         </nav>
-    </header>
-    <div class="grid">
-        <main>
-            <h1>
-                Medina MBEDI | WDD 130
-            </h1>
-            <div class="intro">
-                <p>Welcome to my first page for the WDD 130 course!</p>
-                <img src="images/profile.webp" alt="Hi! It is my image which should appear here" width="200" >
-                <p id='highlight' class="note"> This is my first page for the WDD 130 course, I am really excited to learn more about web development.</p>
-                <p> Hello! My name is Medina MBEDI, I am from Congo, precisely in Brazzaville and I am a teacher of mathematics in middle school and I am really interrested in Computer science. I love programming and want to become a full stack developper</p>   
-            </div>
-        </main>
-    <aside> 
-        <h2> Congo-Brazzaville </h2>
-        <img src="images/brazzaville.webp" alt="Congo-Brazzaville, the city in which I am living for the moment" width="200" >
-        <p> Brazzaville is the capital and largest city of the Republic of the Congo. It is located on the Congo River,
-            opposite Kinshasa, the capital of the Democratic Republic of the Congo.</p>
-    </aside>
+    </header> 
+    <main>
+      
+    <div class="hero">  
+        <img src="images/heros.jpg" alt="Rafting Adventure">
+        <h1>Welcome to Medina's Rafting Company</h1>
     </div>
+
+    <section class="images-container">
+            <div class="image-grid">
+                <figure>
+                    <img src="images/a3.jpg" alt="Rafting Adventure 1" width="300" height="200">
+                    <figcaption>Rafting Adventure 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/a2.jpg" alt="Rafting Adventure 2" width="300" height="200">
+                    <figcaption>Rafting Adventure 2</figcaption>    
+                </figure>
+                <figure>
+                    <img src="images/a1.jpg" alt="Rafting Adventure 3" width="300" height="200">
+                    <figcaption>Rafting Adventure 3</figcaption>    
+                </figure>     
+            </div>
+    </section>
+      <p>Experience the thrill of rafting with us! We offer exciting trips on some of the most beautiful rivers.</p>
+        <p>Join us for an adventure that you will never forget!</p>
+
+    <section>
+            <h2> Our offers </h2>
+            <div class="section2">   
+                <figure>
+                    <img src="images/x.jpg" alt="Rafting Adventure" width="300" height="300">
+                    <figcaption>Join us for an unforgettable rafting experience!</figcaption>
+                </figure> 
+                <figure>
+                    <img src="images/y.jpg" alt="Rafting Adventure" width="300" height="300">
+                    <figcaption>Join us for an unforgettable rafting experience!</figcaption>
+                </figure>
+            </div>
+        </section>
+    <section class="form">
+            <form> 
+                <fieldset>
+                    <legend>User information</legend>
+                    <p> Fill this form to subscribe to our newspaper</p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br>
+                 </fieldset>
+                  <button type="submit">submit</button>
+            </form>
+    </section>
+    <aside>   
+        <p> To learn more about our trips, click on the link: <a href="trips.html">Trips</a></p>
+    </aside>
+    </main>
     <footer>
-        <p> ©2025 🌴Medina MBEDI🌴 Congo, Brazzaville</p>
+        <nav class="socialmedia">
+            <p>&copy; 2025 Medina's Rafting Company. MBEDI Medina.</p>
+            <a href="contact.html">Contact Us</a>
+            <a href="https://www.facebook.com/WWR">
+                <img src='images/facebook.png' alt='Facebook' width='30' height='30'>
+            </a>
+            <a href="https://www.instagram.com/WWR">
+                <img src='images/instagram.png' alt='Instagram' width='30' height='30'>
+            </a>
+            <a href="https://www.twitter.com/WWR">
+                <img src='images/twitter.svg' alt='Twitter' width='30' height='30'>
+            </a> 
+            
+
+        </nav>
     </footer>
 </body>
 </html>

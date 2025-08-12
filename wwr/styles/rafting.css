@@ -1,8 +1,8 @@
 :root {
     --primary-color: #C0CAAD;
     --secondary-color: #B57469; 
-	--secondary-color: #e20c22;
-	--accent1-color: #76AECF;
+	  --secondary-color: #e20c22;
+	  --accent1-color: #76AECF;
     --accent2-color:#3d83c1;
     --heading-font: 'Lobster', sans-serif;
     --body-font: 'Montserrat', sans-serif;
@@ -13,13 +13,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    width: 100%;
+}
 
 body{
     font-family: var(--body-font);
-    color:black;
 }
 
-header,main,footer{
+header,main,footer {
     width: 845px; /*review that again*/
     margin: 0 auto;
 }
@@ -28,6 +30,7 @@ h2 {
     font-family: var(--heading-font);
     color: rgba(11, 87, 202, 0.952);
 }
+
 nav,p,section,article{
     padding: 8px;
     margin: 16px;
@@ -41,10 +44,36 @@ nav,p,section,article{
     position:relative;
 }
 
+/* From my instructor */
+
+/* .images-container{
+    grid-column: 1/4;
+    text-align: center;
+}
+
+
+
+.images-container div{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+}
+
+.images-container figure {
+    width: 33%;
+}
+
+.images-container img {
+    width: 100%;
+} */
+
+
 .hero img {
     width: 100%;
     display: block ;
     height: auto;
+    text-align: center;
 }
 
 .hero h1 {
@@ -126,6 +155,7 @@ figure {
   max-width: 220px;
   margin: auto;
 }
+
 .section2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -136,7 +166,9 @@ figcaption{
     padding: 5px;
 }
 
-
+a{
+  color: rgba(11, 87, 202, 0.952);
+}
 footer {
   display: grid;
   justify-content: space-between;
@@ -147,23 +179,39 @@ footer {
   text-align: center;
   font-size: 1em;
   background-color: #0c9bcb;
-  color: #ffffff;
+  color: #0f0f0f;
 }
 
 footer .social {
   display: flex;
   gap: 1rem;
 }
-
+h2{
+  letter-spacing:10px ;
+}
 footer .social img {
   width: 32px;
   height: 32px;
+}
+nav.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 /* From here */
 
 .image-grid{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
+    grid-template-columns: 250px 300px 300px;
+    align-items: center;
+}
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
 }
 
 h1 {
@@ -239,3 +287,63 @@ iframe {
   border: none;
   text-align: center;
 }
+aside {
+  width: 100%;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+/* table */
+
+thead th {
+    background: black;
+    color: white;
+}
+caption {
+    font-style: italic;
+    text-align: center;
+    font-weight: 1000;
+    padding: 10px;
+    caption-side: top;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1.5px;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+tfoot {
+    background: black;
+    color: white;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid rgb(140 140 140);
+    text-align: center;
+}
+
+td:last-of-type {
+  text-align: right;
+}
+
+tbody  {
+  background-color: rgb(201, 212, 255);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+
+
