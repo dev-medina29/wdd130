@@ -178,7 +178,7 @@ footer {
   width: 845px;
   text-align: center;
   font-size: 1em;
-  background-color: #0c9bcb;
+  background-color: var(--accent1-color);
   color: #0f0f0f;
 }
 
@@ -334,7 +334,7 @@ td:last-of-type {
 }
 
 tbody  {
-  background-color: rgb(201, 212, 255);
+  background-color: var(--accent1-color);
 }
 
 tfoot th {
